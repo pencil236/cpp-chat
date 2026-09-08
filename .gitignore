@@ -1,0 +1,10 @@
+/build/
+aqtinstall.log
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+debug/
+release/
