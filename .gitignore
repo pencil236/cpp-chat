@@ -1,5 +1,4 @@
 /build/
-**/build/
 aqtinstall.log
 *.pro.user
 *.pro.user.*
