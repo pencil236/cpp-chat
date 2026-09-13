@@ -9,3 +9,5 @@ Makefile.Debug
 Makefile.Release
 debug/
 release/
+/project_notes.md
+/LEARNING_LOG.md
