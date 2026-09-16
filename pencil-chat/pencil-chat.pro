@@ -4,7 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 TARGET = pencil-chat
-RC_ICONS = icon.ico
+RC_ICONS = roxy.ico
 DESTDIR = ./bin
 
 # You can make your code fail to compile if it uses deprecated APIs.
@@ -14,15 +14,18 @@ DESTDIR = ./bin
 SOURCES += \
     logindialog.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    registerdialog.cpp
 
 HEADERS += \
     logindialog.h \
-    mainwindow.h
+    mainwindow.h \
+    registerdialog.h
 
 FORMS += \
     logindialog.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    registerdialog.ui
 
 TRANSLATIONS += \
     pencil-chat_zh_CN.ts
